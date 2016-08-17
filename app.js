@@ -6,7 +6,7 @@ var drawCanvas = function() {
   var canvas = document.querySelector('#canvas');
   var pixel;
 
-  for (var i = 0; i < 2013; i++) {
+  for (var i = 0; i < 2050; i++) {
     pixel = document.createElement('div');
     pixel.className = 'pixel';
     canvas.appendChild(pixel);
